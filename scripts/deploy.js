@@ -5,7 +5,7 @@ async function main() {
 
   await contract.waitForDeployment();
 
-  console.log(`deployed to ${contract.target}`);
+  console.log(`Contract address : ${contract.target}`);
 }
 
 main().catch((error) => {
